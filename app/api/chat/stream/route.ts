@@ -51,7 +51,7 @@ export async function POST(req: Request) {
     }
 
     // Use provided model or fallback to default
-    const selectedModel = model || "xiaomi/mimo-v2-flash:free";
+    const selectedModel = model || "deepseek/deepseek-r1:free";
 
     // Use provided temperature or fallback to default
     const selectedTemperature =
@@ -131,7 +131,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-         model: selectedModel,
+         model: "deepseek/deepseek-r1:free",
           messages: apiMessages,
           max_tokens: 4096,
           temperature: selectedTemperature,
