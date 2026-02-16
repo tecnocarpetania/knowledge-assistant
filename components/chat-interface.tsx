@@ -27,30 +27,10 @@ import remarkGfm from "remark-gfm";
  * Available AI models from OpenRouter (free tier - verified working)
  */
 const AI_MODELS = [
-  {
-    id: "xiaomi/mimo-v2-flash:free",
-    name: "Mimo V2 Flash",
-    provider: "Xiaomi",
-  },
-  {
-    id: "meta-llama/llama-3.3-70b-instruct:free",
-    name: "Llama 3.3 70B",
-    provider: "Meta",
-  },
-  {
-    id: "mistralai/devstral-2512:free",
-    name: "Devstral 2",
-    provider: "Mistral",
-  },
-  {
+    {
     id: "deepseek/deepseek-r1-0528:free",
     name: "DeepSeek R1",
     provider: "DeepSeek",
-  },
-  {
-    id: "z-ai/glm-4.5-air:free",
-    name: "GLM 4.5 Air",
-    provider: "Z.AI",
   },
 ];
 
@@ -105,7 +85,7 @@ function createWelcomeMessage(): Message {
     id: generateId(),
     role: "assistant",
     content:
-      "👋 Hello! I'm your Knowledge AI assistant. I can answer questions based on my specialized knowledge base. How can I help you today?",
+      "👋 Hola! Soy tu Asistente IA. en qué puedo ayudarte?",
     timestamp: new Date().toISOString(),
   };
 }
