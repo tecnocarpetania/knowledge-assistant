@@ -84,7 +84,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-          model: "xiaomi/mimo-v2-flash:free",
+          model: "deepseek/deepseek-r1:free",
           messages: [
             { role: "system", content: systemPrompt },
             { role: "user", content: message },
