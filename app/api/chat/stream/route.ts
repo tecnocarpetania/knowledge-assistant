@@ -1,4 +1,4 @@
-import { promises as fs } from "fs";
+cimport { promises as fs } from "fs";
 import path from "path";
 
 /**
@@ -131,7 +131,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-         model: "deepseek/deepseek-r1:free",
+         model: selectedModel,
           messages: apiMessages,
           max_tokens: 4096,
           temperature: selectedTemperature,
