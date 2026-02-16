@@ -84,7 +84,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-          model: "google/gemini-2.0-flash-exp:free",
+          model: "google/gemini-2.0-flash-thinking-exp:free",
           messages: [
             { role: "system", content: systemPrompt },
             { role: "user", content: message },
