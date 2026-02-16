@@ -84,7 +84,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-          model: "deepseek/deepseek-r1:free",
+          model: "microsoft/phi-3.5-mini-128k:free",
           messages: [
             { role: "system", content: systemPrompt },
             { role: "user", content: message },
