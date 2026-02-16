@@ -52,7 +52,7 @@ export async function POST(req: Request) {
     }
 
     // Use provided model or fallback to default
-    const selectedModel = model || "deepseek/deepseek-r1:free";
+    const selectedModel = model || "microsoft/phi-3.5-mini-128k:free";
 
     // Use provided temperature or fallback to default
     const selectedTemperature =
