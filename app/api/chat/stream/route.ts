@@ -131,7 +131,7 @@ INSTRUCTIONS:
           "X-Title": "Knowledge AI Chat",
         },
         body: JSON.stringify({
-         model: "google/gemini-2.0-flash-thinking-exp:free"
+         model: "deepseek/deepseek-r1:free"
           messages: apiMessages,
           max_tokens: 4096,
           temperature: selectedTemperature,
